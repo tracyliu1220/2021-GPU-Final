@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/tracyliu/Work/GPUFinal/gles3jni/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/tracyliu/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/tracyliu/Work/GPUFinal/gles3jni/app/.cxx/cmake/debug/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/tracyliu/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/tracyliu/Work/GPUFinal/gles3jni/app/.cxx/cmake/debug/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "gles3jni::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "gles3jni",
+      "output": "/home/tracyliu/Work/GPUFinal/gles3jni/app/build/intermediates/cmake/debug/obj/x86_64/libgles3jni.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/tracyliu/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/tracyliu/Android/Sdk/ndk/21.2.6472646/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

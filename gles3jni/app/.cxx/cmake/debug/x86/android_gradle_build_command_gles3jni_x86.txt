@@ -1,0 +1,7 @@
+Executable : /home/tracyliu/Android/Sdk/cmake/3.18.1/bin/ninja
+arguments : 
+-C
+/home/tracyliu/Work/GPUFinal/gles3jni/app/.cxx/cmake/debug/x86
+gles3jni
+jvmArgs : 
+
